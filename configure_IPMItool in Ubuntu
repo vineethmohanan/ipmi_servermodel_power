@@ -8,4 +8,6 @@ sudo apt update
 
 sudo apt install ipmitool
 
+
+
 Your Ubuntu system should start the ipmi daemon automatically.
