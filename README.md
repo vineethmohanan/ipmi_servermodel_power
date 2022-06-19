@@ -1,0 +1,1 @@
+# ipmi_servermodel_power
