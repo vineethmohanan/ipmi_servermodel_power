@@ -21,7 +21,7 @@ ipmitool chassis status ipmitool chassis identify []	---> Turns on front panel i
 ipmitool [chassis] power soft	---> A soft-shutdown via acpi
 ipmitool [chassis] power cycle --->	A combination of a hard power off, 1-second wait, then power on
 ipmitool [chassis] power off	---> A hard power off
-ipmitool [chassis] power on --->	A hard power on
+ipmitool [chassis] power on ---> A hard power on
 ipmitool [chassis] power reset	---> A hard reset
 
 Modify Boot Device Commands
