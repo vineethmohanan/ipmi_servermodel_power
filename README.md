@@ -34,3 +34,5 @@ Common ipmitool commands: [docs/ipmi-command-reference.md](docs/ipmi-command-ref
 
 ## License
 MIT
+
+**Security note:** if the script takes the BMC password as an argument or has one hard-coded, switch to an environment variable (IPMI_PASSWORD) before recruiters read it. Also scan the commit history for real IPs or passwords and rotate any that were exposed.
